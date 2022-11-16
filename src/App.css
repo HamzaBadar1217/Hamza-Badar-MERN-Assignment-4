@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.container-fluid {
+  background-image: url(../public/React.png);
+  background-size: cover;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.heading {
+  font-family: 'Tangerine', serif;
+  font-size: 80px;
+  text-shadow: 4px 4px 4px #aaa;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.myFormContainer {
+  background-color: #444444;
+  text-shadow: 4px 4px 4px #aaa;
+  border-radius: 10px;
+  height: 100px;
+  width: 500px
+}
+
+form .btn {
+  background-color: #FFAC33;
+  margin: 40px 0;
+}
+
+form .btn:hover {
+  background-color: #c58627;
+}
+
+label {
+  text-shadow: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.myListContainer {
+  background-color: #444444;
+  text-shadow: 1px 1px 1px #aaa;
+  border-radius: 10px;
+  height: 80px;
+  width: 400px
+}
+
+li .btn {
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
 }
